@@ -1,0 +1,114 @@
+@import "../variables";
+/*INPUTS*/
+form {
+	width: 100%;
+    display: table;
+}
+
+div.form-row {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+label {
+    padding-right: 10px;
+}
+input[type=text], select, input[type="password"], input[type="email"], input[type="tel"]{
+    line-height: 42px;
+    height: 40px;
+    max-width: 260px;
+    padding-left: 18px;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 5px;
+    border: 1px solid $light-gray;
+    &:focus {
+    	color: $text-color;
+		outline: none;
+		border: 1px solid $input-border-focus;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+}
+textarea {
+    padding: 20px 18px;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 5px;
+    border: 1px solid $light-gray;
+    &:placeholder {
+		color: $section-header-gray;
+    }
+	&:focus {
+		outline: none;
+		border: 1px solid $input-border-focus;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+
+}
+.password-input-container {
+	position: relative;
+	 input[type="password"]{
+ 		padding-left: 45px;
+ 		padding-top: 4px;
+ 		line-height: 42px;
+ 		&:focus + i{
+	 		color: $text-color;
+		 }
+	 }
+	 i {
+	 	position: absolute;
+	 	left: 8px;
+	 	top: 50%;
+	 	transform: translateY(-50%);
+	 	padding: 9px 8px;
+	 	&:hover {
+	 		color: $text-color;
+	 	}
+	 }
+	
+}
+fieldset {
+	border: 1px solid $dark-gray;
+	border-radius: 3px;
+	padding-top: 8.750px;
+	line-height: 25px;
+	margin-right: 13px;
+}
+input[type="date"] {
+	border: none;
+	width: 125px;
+}
+#startDate {
+		border-right: 1px solid $dark-gray;
+		margin-right: 15px;
+	}
+.form-part {
+	width: 550px;
+	margin: 0 auto;
+	padding: 20px 18px;
+	input[type=text], select, input[type="password"], input[type="email"], input[type="tel"] {
+		max-width: 400px;
+		width: 350px;
+	}
+	label {
+		max-width: 200px;
+		width: 200px;
+	}
+}
+.separator {
+	margin-bottom: 10px;
+	width: 100%;
+	border-bottom: 1px solid $light-gray;
+}
+.center-btn {
+	text-align: center;
+	button {
+		margin-top: 30px;
+		margin-bottom: 40px;
+		width: 100px;
+	}
+}

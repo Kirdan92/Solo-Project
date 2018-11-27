@@ -1,0 +1,73 @@
+@import "../variables";
+body {
+	font-size: $paragraph-font-size;
+	color: $text-color;
+}
+p {
+	font-size: $paragraph-font-size;
+	color: $text-color;
+	font-weight: 300;
+}
+h2 {
+	font-size: $section-header-font-size;
+	font-weight: 700;
+	color: $section-header-gray;
+	margin: 0;
+}
+h1 {
+	font-size: $page-header-font-size;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: $section-header-gray;
+	margin: 0;
+}
+a {
+	font-size: $links-font-size;
+	font-weight: 300;
+	color: $links-color;
+	text-decoration: none;
+	&:hover {
+		cursor: pointer;
+		color: $yellow-color;
+	}
+}
+.small-link {
+	@extend a;
+	font-size: $sm-links-font-size;
+
+}
+button, .btn {
+	font-size: $button-font-size;
+	color: #ffffff;
+	font-weight: 300;
+	line-height: 42px;
+	vertical-align: middle;
+	text-align: center;
+}
+i {
+	font-size: $icon-fs;
+	color: $dark-gray;
+	&:hover {
+		cursor: pointer;
+		color: $yellow-color;
+	}
+}
+.btn-warning-icon {
+	color: #ffffff;
+}
+.link-icon {
+	cursor: pointer;
+	color: $yellow-color;
+}
+.col-num {
+	font-size: 16px;
+}
+.section-header {
+	border-bottom: 1px solid $light-gray;
+	padding: 15px 0 18px 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.small-letters {
+	text-transform: none;
+}

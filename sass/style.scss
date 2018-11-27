@@ -1,0 +1,35 @@
+@import "variables";
+@import "mixins";
+@import "normalize";
+@import "layout";
+@import "vendor/css/Glyphter";
+/* Components */
+@import "components/texts";
+@import "components/buttons";
+@import "components/inputs";
+@import "components/tables";
+@import "components/header";
+@import "components/popups";
+@import "sections/sidebar";
+@import "media";
+/*
+Sections 
+@import "section/registration_form";
+
+ Pages / Views 
+@import "pages/registration";
+*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: $main-font;
+	font-size: $paragraph-font-size;
+}
+.glyphter {
+    /*Set font family style as sample*/
+    font-family: glyphter !important;
+}

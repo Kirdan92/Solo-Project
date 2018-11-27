@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<meta charset="UTF-8">
+	<title>Detail Statistic</title>	
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../vendor/css/Glyphter.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<nav>
+				<ul>
+					<li id="wallet-nav">
+						<i class="glyphter icon-wallet"></i>
+						<h1>$1,500.00</h1>
+						<i id="wallet-arrow" class="glyphter icon-arrow-down"></i>
+					  	<div id="wallet-dropdown" class="dropdown-content">
+							<table class="wallet-table">
+						  		<tr class="row">
+						  			<td class=""><h2>CPA</h2></td>
+						  			<td class="col-dd-l">$1000</td>
+						  		</tr>
+						  		<tr class="row">
+						  			<td class=""><h2>CPL</h2></td>
+						  			<td class="col-dd-l">$1100</td>
+						  		</tr>
+					  			<tr class="row">
+						  			<td class=""><h2>Turnover</h2></td>
+						  			<td class="col-dd-l">$1030</td>
+						  		</tr>
+					  			<tr class="row">
+						  			<td class=""><h2>Net deposit</h2></td>
+						  			<td class="col-dd-l">$1000</td>
+						  		</tr>
+						  	</table>
+					 	</div>
+					</li>
+					<li><i id="notification-bell" class="glyphter icon-notification"></i></li>
+					<li id="profile-nav"><i class="glyphter icon-profile"></i> <a class="small-link" href="#">Leonardo Dicaprio</a></li>
+					<li id="quit-nav"><i class="glyphter icon-quit"></i></li>			
+				</ul>
+			</nav>
+			<div class="hide-nav"><h3>Hide navigation</h3><i  class="glyphter icon-arrow-up"></i></div>
+		</header>
+		<div id="sidebar-grid" class="sidebar-small">
+			<div id="sidebar" class="sidebar-small">
+				<div id="sidebar-header">
+					<img src="../images/logo.png">
+					<div id="hamburger">
+						<div class="hamburger-part"></div>
+						<div class="hamburger-part"></div>
+						<div class="hamburger-part"></div>
+					</div>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="../index.html"><i class="glyphter icon-general"></i><span class="sidebar-text">General</span></a></li>
+						<li class="active-page"><a href="details.html"><i class="glyphter icon-details"></i><span class="sidebar-text">Details</span></a></li>
+						<li><a href="links.html"><i class="glyphter icon-links"></i><span class="sidebar-text">Links</span></a></li>
+						<li><a href="banners.html"><i class="glyphter icon-banners"></i><span class="sidebar-text">Banners</span></a></li>
+						<li><a href="personaldata.html"><i class="glyphter icon-personaldata"></i><span class="sidebar-text">Personal data</span></a></li>
+						<li><a href="payout.html"><i class="glyphter icon-payout"></i><span class="sidebar-text">Payout</span></a></li>
+						<li><a href="postback.html"><i class="glyphter icon-postback"></i><span class="sidebar-text">Postback</span></a></li>
+					</ul>
+				</nav>
+				<hr>
+				<div class="sidebar-bottom">
+					<h2>Your Manager</h2>
+					<div class="sidebar-photo">
+						<img src="../images/photo.png">
+						<a href="#">Mikhael E.</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<main>
+			<section id="links-section">
+				<h2 class="section-header">Detail Statistic</h2>
+				<div class="section-body">		
+					<div class="date-range-container">
+						<fieldset>
+							<input type="date" id="startDate" name="startDate" value="2016-05-11">
+							<input type="date" id="endDate" name="endDate" value="2016-05-26">
+							<i class="glyphter icon-calendar"></i>
+						</fieldset>
+						<button class="btn btn-sm btn-warning"><i class="glyphter icon-refresh"></i></button>
+					</div>
+					<div class="links-container details-section">
+					  	<table class="large-table">
+					  		<tr class="header-row">
+					  			<th><span>Tracker name<i class="glyphter icon-arrow-up"></i></span></th>
+					  			<th><span>Initiated date<i class="glyphter icon-arrow-up"></i></span></th>
+					  			<th><span>Visits<i class="glyphter icon-arrow-up"></i></span></th>
+					  			<th><span>Unique<i class="glyphter icon-arrow-up"></i></span></th>
+					  			<th><span>Signups<i class="glyphter icon-arrow-up"></i></span></th>
+					  			<th><span>FTD<i class="glyphter icon-arrow-up"></i></span></th>
+					  			<th><span>Depositors<i class="glyphter icon-arrow-up"></i></span></th>
+					  			<th><span>Deposits ($)<i class="glyphter icon-arrow-up"></i></span></th>
+					  			<th><span>Payout ($)<i class="glyphter icon-arrow-up"></i></span></th>
+					  			<th><span>Turnover<i class="glyphter icon-arrow-up"></i></span></th>
+					  			<th><span>Deal<i class="glyphter icon-arrow-up"></i></span></th>
+					  		</tr>
+					  		<tr class="row">
+					  			<td class="col">aff/sam_test</td>
+					  			<td class="col">17/08/02(12:58)</td>
+					  			<td class="col">232</td>
+					  			<td class="col">114</td>
+					  			<td class="col">12</td>
+					  			<td class="col">6</td>
+					  			<td class="col">3</td>
+					  			<td class="col">34,425.00</td>
+					  			<td class="col">234.00</td>
+					  			<td class="col">421,342.00</td>
+					  			<td class="col">cpl (200)</td>
+					  		</tr>
+					  		<tr class="row">
+				  				<td class="col">aff/sam_test</td>
+					  			<td class="col">17/08/02(12:58)</td>
+					  			<td class="col">232</td>
+					  			<td class="col">114</td>
+					  			<td class="col">12</td>
+					  			<td class="col">6</td>
+					  			<td class="col">3</td>
+					  			<td class="col">34,425.00</td>
+					  			<td class="col">234.00</td>
+					  			<td class="col">421,342.00</td>
+					  			<td class="col">cpl (200)</td>
+					  		</tr>
+			  				<tr class="row">
+				  				<td class="col">aff/sam_test</td>
+					  			<td class="col">17/08/02(12:58)</td>
+					  			<td class="col">232</td>
+					  			<td class="col">114</td>
+					  			<td class="col">12</td>
+					  			<td class="col">6</td>
+					  			<td class="col">3</td>
+					  			<td class="col">34,425.00</td>
+					  			<td class="col">234.00</td>
+					  			<td class="col">421,342.00</td>
+					  			<td class="col">cpl (200)</td>
+					  		</tr>
+					  		<tr class="row">
+				  				<td class="col">aff/sam_test</td>
+					  			<td class="col">17/08/02(12:58)</td>
+					  			<td class="col">232</td>
+					  			<td class="col">114</td>
+					  			<td class="col">12</td>
+					  			<td class="col">6</td>
+					  			<td class="col">3</td>
+					  			<td class="col">34,425.00</td>
+					  			<td class="col">234.00</td>
+					  			<td class="col">421,342.00</td>
+					  			<td class="col">cpl (200)</td>
+					  		</tr>
+					  		<tr class="row">
+				  				<td class="col">aff/sam_test</td>
+					  			<td class="col">17/08/02(12:58)</td>
+					  			<td class="col">232</td>
+					  			<td class="col">114</td>
+					  			<td class="col">12</td>
+					  			<td class="col">6</td>
+					  			<td class="col">3</td>
+					  			<td class="col">34,425.00</td>
+					  			<td class="col">234.00</td>
+					  			<td class="col">421,342.00</td>
+					  			<td class="col">cpl (200)</td>
+					  		</tr>
+					  		<tr class="row">
+				  				<td class="col">aff/sam_test</td>
+					  			<td class="col">17/08/02(12:58)</td>
+					  			<td class="col">232</td>
+					  			<td class="col">114</td>
+					  			<td class="col">12</td>
+					  			<td class="col">6</td>
+					  			<td class="col">3</td>
+					  			<td class="col">34,425.00</td>
+					  			<td class="col">234.00</td>
+					  			<td class="col">421,342.00</td>
+					  			<td class="col">cpl (200)</td>
+					  		</tr>
+					  		<tr class="row">
+				  				<td class="col">aff/sam_test</td>
+					  			<td class="col">17/08/02(12:58)</td>
+					  			<td class="col">232</td>
+					  			<td class="col">114</td>
+					  			<td class="col">12</td>
+					  			<td class="col">6</td>
+					  			<td class="col">3</td>
+					  			<td class="col">34,425.00</td>
+					  			<td class="col">234.00</td>
+					  			<td class="col">421,342.00</td>
+					  			<td class="col">cpl (200)</td>
+					  		</tr>
+					  		<tr class="row">
+				  				<td class="col">aff/sam_test</td>
+					  			<td class="col">17/08/02(12:58)</td>
+					  			<td class="col">232</td>
+					  			<td class="col">114</td>
+					  			<td class="col">12</td>
+					  			<td class="col">6</td>
+					  			<td class="col">3</td>
+					  			<td class="col">34,425.00</td>
+					  			<td class="col">234.00</td>
+					  			<td class="col">421,342.00</td>
+					  			<td class="col">cpl (200)</td>
+					  		</tr>
+				  		</table>
+					</div>
+					<div class="pagination-container">
+						<div class="pagination">
+						  <a href="#"><i class="glyphter icon-arrow-left"></i></a>
+						  <a href="#" class="active">1</a>
+						  <a href="#" >2</a>
+						  <a href="#">3</a>
+						  <a href="#">4</a>
+						  <a href="#">5</a>
+						  <a href="#">6</a>
+						  <a href="#">7</a>
+						  <a href="#">8</a>
+						  <a href="#">9</a>
+						  <a href="#"><i class="glyphter icon-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<div class="popup-container" id="login-overlay">
+				<section class="login-popup">
+					<h2 class="section-header">Login</h2>
+					<form class=login-form action="" method="POST">
+						 <div class="form-row">
+							    	<input type="text" name="login" id="login" placeholder="login name" required>
+							    	<input type="password" name="password" id="password" placeholder="password" required>
+							    	<button class="btn btn-warning btn-lg" type="submit" value="Submit">Enter</button>
+						  </div>
+					</form>
+					<div class="btn-close js--close-modal"><i class="glyphter icon-close"></i></div>
+				</section>
+				<div class="close-popup-container">
+					<i class="glyphter icon-close js--close-modal"></i>
+				</div>
+			</div>
+			<div class="popup-container" id="logout-overlay">
+				<section class="close-popup">
+					<h2 class="section-header small-letters">Do you really want to Quit?</h2>
+						<div class="btn-container">
+					    	<button class="btn btn-lg" id="cancel-btn">Cancel</button>
+					    	<button class="btn btn-warning btn-lg">Quit</button>
+					    </div>	
+					    <div class="btn-close js--close-modal"><i class="glyphter icon-close"></i></div>
+				</section>
+			</div>
+	</div>
+	<script type="text/javascript" src="../js/script.js"></script>
+	<script type="text/javascript" src="../js/pagination.js"></script>
+</body>
+</html>
